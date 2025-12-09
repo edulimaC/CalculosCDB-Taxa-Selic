@@ -66,5 +66,6 @@ public class CalculoInvestimentos {
                 System.out.println("Valor total com impostos: " + df.format(contaFinal));
             }
         }
+        sc.close();
     }
 }
